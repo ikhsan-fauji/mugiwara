@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mugiwara</title>
+  <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/icons/fontawesome-free-5.13.0-web/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body onload="home()">
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <span><img src="assets/images/logo.png"></span>
+        </div>
+
+        <div id="nav-icon" onclick="showNavBar()">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <ul id="nav-menu">
+          <li class="nav-item active"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="arc.html">Arc</a></li>
+          <li class="nav-item"><a href="character.html">Character</a></li>
+        </ul>
+      </nav>
+
+      <nav id="mobile-menu">
+        <ul>
+          <li class="nav-item active"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="arc.html">Arc</a></li>
+          <li class="nav-item"><a href="character.html">Character</a></li>
+        </ul>
+      </nav>
+
+      <div class="jumbotron">
+        <div class="banner-title">
+          <h1>Mugiwara No Ichimi</h1>
+          <p>Informasi terkait Art One Piece dan Profile kru bajak laut Topi Jerami</p>
+          <p>--- Selamat Membaca ---</p>
+        </div>
+        <figure>
+          <img src="assets/images/straw-hat-pirates.png" alt="Kru Topi Jerami">
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="content">
+      <h2 class="section-title">Latest Arc</h2>
+      <!-- content embeded by javascript -->
+    </div>
+
+    <aside>
+      <section id="creator">
+        <h2 class="section-title">Created By</h2>
+
+        <article class="card-outline">
+          <figure class="creator-image">
+            <img src="assets/images/profile.jpg" alt="Wano Kuni">
+          </figure>
+          <section class="creator-detail">
+            <h3 class="title"><a href="#">Ikhsan Fauji</a></h3>
+            <p class="sub-title-sm">Laki-Laki | 11 Maret 1996</p>
+
+            <ul class="contact">
+              <li><i class="fa fa-phone-square-alt"></i> 082125548802</li>
+              <li><i class="fa fa-envelope"></i> ikhsan15fauji@gmail.com</li>
+              <li><i class="fa fa-map-marked-alt"></i> Dsn. Api-Api Rt 04 / Rw 03, Ds. Kedungbenda, Kc. Nusawungu, Kb. Cilacap</li>
+            </ul>
+          </section>
+        </article>
+      </section>
+
+      <section id="quotes">
+        <article class="card-outline">
+          <h1 class="quote">Quote kosong</h1>
+        </article>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="container">
+    <div class="footer">
+      <p>Mugiwara &copy; 2020 - Created by Ikhsan Fauji</p>
+      <p>Article by <a href="https://www.dicoding.com/" target="_blank">One Piece Fandom</a></p>
+      <p>Course by <a href="https://onepiece.fandom.com" target="_blank">Dicoding</a></p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/onepiece.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
